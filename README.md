@@ -14,7 +14,7 @@ Another unusual aspect of the layout is the 10 button right hand cluster. The cl
 
 Lastly are the titular three up buttons. Really, this is just for player comfort. Some prefer a `WASD` jump and others prefer a thumb jump. If concerned about being DQ'd for having more than one (i.e., under CPT rules), just remove remove the two switches you don't personally use.
 
-Powering this device is OpenStick's excellent [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) gamepad firmware. Please see that repository for information about console compatibility, configuration, and all the rest.
+Powering this device is OpenStick's excellent [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) gamepad firmware. Please see that repository for information about configuration, console compatibility, and all the rest.
 
 ## Creation
 
@@ -22,7 +22,7 @@ If you want to produce one, you will need some parts. Note that anywhere a quant
 
 ### PCB
 
-- 1x triplejump PCB, created using the [gerber.zip](./prod/gerber.zip) files with an online PCB prototyping service. I \[intend to have\] used [JLCPCB](https://jlcpcb.com/).
+- 1x triplejump PCB, created using the [gerber.zip](./prod/gerber.zip) files with an online PCB prototyping service. (e.g., [JLCPCB](https://jlcpcb.com/).)
 - 1x [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm).
 - 6x 6x6mm Panel PCB Momentary Tactile Mini Push Button Switch DIP 4pin.
 - 14-16x Kailh Choc v1 Hotswap Sockets (PG1350).
@@ -49,12 +49,12 @@ If you want to produce one, you will need some parts. Note that anywhere a quant
 - The [Latest GP2040-CE Release](https://github.com/OpenStickCommunity/GP2040-CE/releases).
 - > [TODO: Can I just provide a config file?] Button Mapping using GP2040-CE's Web Interface.
 
-## Hacking
+## Mods
 
-Here are some ideas for mods that should be fairly straightfoward, if you want to fork this project:
+If you wanted to fork this project, these mods should be fairly straightfoward:
 
-- Changing from Choc keyswitches to standard MX-style switches "should" be a simple operation, because I used MX-standard 19.05mm switch spacing everywhere.
-- Case could surely use some improvement, this was my first time designing or 3D printing anything.
+- Changing from Choc keyswitches to standard MX-style switches—I used MX-standard 19.05mm switch spacing everywhere.
+- Case design improvements—this was my first time designing or 3D printing anything, it will probably be a few iterations before I'm really happy with it.
 
 ## Acknowledgments
 
