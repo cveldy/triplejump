@@ -35,7 +35,7 @@ If you want to produce one, you will need some parts.
 
 ### Case [NYI]
 
-- 3D Printed Case [Top](<./prod/case-top (repaired)>) and [Bottom](<./prod/case-bottom (repaired)>).
+- 3D Printed Case [Top](<./prod/case-top (repaired).stl>) and [Bottom](<./prod/case-bottom (repaired).stl>).
 - [TODO: Verify this is correct] 4x M3 x 8mm Screws.
 - [TODO: Verify this is correct] 4x M3 Nuts.
 - OPTIONAL: Non-slip Feet or Pads.
