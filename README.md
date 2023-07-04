@@ -8,7 +8,7 @@ Leverless (box-style) fighting game controller with three jump options.
 
 This controller is distinguished by its split-hand configuration and angled keyclusters, mitigating the RSI-potential of the standard "hands-together-but-parallel" layout popularized by the Hitbox. The goal is to keep the entire device relatively small while still providing a meaningful ergonomic benefit.
 
-[TODO: Verify these are correct] Dimensions of the assembled device are 350x122x10mm (not counting the switches, which about 7mm additional height).
+[TODO: Verify these are correct] Dimensions of the assembled device are 350x122x10mm (not counting the switches/keycaps, which add about 7mm additional height).
 
 Another unusual aspect of the layout is the 10 button right hand cluster. The closeness of the keys in this keyboard-like format makes multi-key inputs (e.g., `LP+LK`) harder than usual to press. Promoting `R3` and `L3` into "first class" buttons mitigates this drawback by providing more locations for macros.
 
