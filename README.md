@@ -22,7 +22,7 @@ If you want to produce one, you will need some parts.
 
 ### PCB
 
-- 1x triplejump PCB, created using the [gerber.zip](./prod/gerber.zip) files with an online PCB prototyping service. (e.g., [JLCPCB](https://jlcpcb.com/).)
+- 1x triplejump PCB, created using the [gerbers.zip](./prod/gerbers.zip) files with an online PCB prototyping service. (e.g., [JLCPCB](https://jlcpcb.com/).)
 - 1x [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm).
 - 6x 6x6mm Panel PCB Momentary Tactile Mini Push Button Switch DIP 4pin.
 - 16x Kailh Choc v1 Hotswap Sockets (PG1350).
@@ -66,4 +66,4 @@ If you wanted to fork this project, these mods should be fairly straightfoward:
 - [ruiqimao](https://github.com/ruiqimao)'s [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide), which led me through the entire PCB creation process.
 - [crides](https://github.com/crides)'s [Kleeb](https://github.com/crides/kleeb) Kicad library, whose symbols and footprints are present in the PCB schematic and design.
 - [daprice](https://github.com/daprice)'s [keyswitches.pretty](https://github.com/daprice/keyswitches.pretty) Kicad library, whose footprints are present in the PCB design. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- [OpenStickCommunity](https://github.com/OpenStickCommunity/GP2040-CE)'s [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE), whose firmware makes the silicon useful and whose Discord community was extremely helpful.
+- [OpenStickCommunity](https://github.com/OpenStickCommunity)'s [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE), whose firmware makes the silicon useful and whose Discord community was extremely helpful.
