@@ -2,17 +2,15 @@
 
 Leverless (box-style) fighting game controller with three jump options.
 
-> TODO: One or more images
+`TODO: One or more images`
 
 ## About
 
 This controller is distinguished by its split-hand configuration and angled keyclusters, mitigating the RSI-potential of the standard "hands-together-but-parallel" layout popularized by the Hitbox. The goal is to keep the entire device relatively small while still providing a meaningful ergonomic benefit.
 
-[TODO: Verify these are correct] Dimensions of the assembled device are 350x122x10mm (not counting the switches/keycaps, which add about 7mm additional height).
+Another unusual aspect of the layout is the 10 button right hand cluster. The closeness of the keys in this keyboard-like format makes multi-key inputs (e.g., `LP+LK`) harder than usual to press. Promoting `R3` and `L3` into "first class" buttons mitigates this drawback by providing more locations for macros (the legal kind you can map in-game).
 
-Another unusual aspect of the layout is the 10 button right hand cluster. The closeness of the keys in this keyboard-like format makes multi-key inputs (e.g., `LP+LK`) harder than usual to press. Promoting `R3` and `L3` into "first class" buttons mitigates this drawback by providing more locations for macros.
-
-Lastly are the titular three up buttons. Really, this is just for player comfort. Some prefer a `WASD` jump and others prefer a thumb jump. If concerned about being DQ'd for having more than one (i.e., under CPT rules), just remove remove the two switches you don't personally use.
+Lastly are the titular three up buttons. Really, this is just for player comfort. Some prefer a `WASD` jump and others prefer a thumb jump. If concerned about being DQ'd for having more than one (i.e., under CPT rules), just remove the two switches you don't personally use.
 
 Powering this device is OpenStick's excellent [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) gamepad firmware. Please see that repository for information about configuration, console compatibility, and all the rest.
 
@@ -33,11 +31,13 @@ If you want to produce one, you will need some parts.
 - 14x Kailh Choc-compatible 1u Keycaps.
 - 2x Kailh Choc-compatible 1.5u Keycaps.
 
-### Case [NYI]
+### Case
 
-- 3D Printed Case [Top](<./prod/case-top (repaired).stl>) and [Bottom](<./prod/case-bottom (repaired).stl>).
-- [TODO: Verify this is correct] 4x M3 x 8mm Screws.
-- [TODO: Verify this is correct] 4x M3 Nuts.
+This case was designed with MBK profile Choc keycaps in mind and may or may not be compatible with other keycaps.
+
+- 3D Printed Case [Top](<./prod/case-top-hipro (repaired).stl>) and [Bottom](<./prod/case-bottom (repaired).stl>).
+- 4x M3 x 10mm Screws. `[TODO: Verify this is correct] `
+- 4x M3 Nuts. `[TODO: Verify this is correct] `
 - OPTIONAL: Non-slip Feet or Pads.
 
 ### Assembly
@@ -45,18 +45,27 @@ If you want to produce one, you will need some parts.
 - Soldering Equipment.
 - Screwdriver.
 
-### Firmware [NYI]
+### Firmware
 
-- The [Latest GP2040-CE Release](https://github.com/OpenStickCommunity/GP2040-CE/releases).
-- > [TODO: Can I just provide a config file?] Button Mapping using GP2040-CE's Web Interface.
+- The [Latest GP2040-CE Release](https://github.com/OpenStickCommunity/GP2040-CE/releases), flashed accoridng to the documentation.
+- Pin (Button) Mapping using GP2040-CE's [Web Configurator](https://gp2040-ce.info/#/web-configurator)
+  - There is a catch: the firmware assumes a default pin mapping that the triplejump does not use. Until you've remapped the pins, you must hold down R3 instead of S2 (Start) when plugging in the controller to enter the configurator.
+  - You could also short pin 1 to ground manually if you haven't installed the switches yet when setting up the firmware.
+  - The correct mapping for the triplejump is shown below.
+
+![](./images/pin-mapping.png)
 
 ## Mods
 
 If you wanted to fork this project, these mods should be fairly straightfoward:
 
-- Changing from Choc keyswitches to standard MX-style switches—I used MX-standard 19.05mm switch spacing everywhere.
-- Case design improvements—this was my first time designing or 3D printing anything, it will probably be a few iterations before I'm really happy with it.
-- Removing one or more jump buttons from the case design so that is doesn't look janky if installing less than three.
+- Changing from Choc keyswitches to standard MX-style switches.
+  - I used MX-standard 19.05mm switch spacing everywhere, which should help.
+  - You'd still need to change the footprints on the PCB and modify the case.
+- Case design improvements.
+  - This was my first time designing or 3D printing anything, it could surely be improved by someone with more experience.
+- Removing one or more jump buttons from the case design.
+  - If you don't install all 3, a modified case would look less janky.
 
 ## Acknowledgments
 
