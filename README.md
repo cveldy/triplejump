@@ -33,11 +33,17 @@ If you want to produce one, you will need some parts.
 
 ### Case
 
-This case was designed with MBK profile Choc keycaps in mind and may or may not be compatible with other keycaps.
+`CASE STILL HEAVILY WIP` This case was designed with MBK profile Choc keycaps in mind and may or may not be compatible with other keycaps.
 
-- 3D Printed Case [Top](<./prod/case-top-hipro (repaired).stl>) and [Bottom](<./prod/case-bottom (repaired).stl>).
+- Laser Cut Acrylic Layers: [Bottom](<./prod/case_layer0_1-2mm.dxf>), [Middle](<./prod/case_layer1_2-3mm.dxf>), [Top](<./prod/case_layer2_4-6mm.dxf>)
+  - The filenames include how thick each layer should be.
+  - The PCB goes between the middle and top layers.
+  - The top layer could instead be two separate layers (half thick, each) such that artwork could be sandwiched in between.
+  - 3D Printed Case [Top](<./prod/case-top-hipro (repaired).stl>) and [Bottom](<./prod/case-bottom (repaired).stl>).
 - 4x M3 x 10mm Screws. `[TODO: Verify this is correct] `
-- 4x M3 Nuts. `[TODO: Verify this is correct] `
+- 4x M3 Threaded Heat Set Inserts. `[TODO: Verify this is correct] `
+  - Affixed in the top acrylic layer, screwed into from the bottom.
+  - I `[TODO: intend to have]` used [these]<https://www.amazon.com/gp/product/B077CL322T>.
 - OPTIONAL: Non-slip Feet or Pads.
 
 ### Assembly
