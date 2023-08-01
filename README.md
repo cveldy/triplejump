@@ -40,10 +40,10 @@ If you want to produce one, you will need some parts.
   - The PCB goes between the middle and top layers.
   - The top layer could instead be two separate layers (half thick, each) such that artwork could be sandwiched in between.
   - 3D Printed Case [Top](<./prod/case-top-hipro (repaired).stl>) and [Bottom](<./prod/case-bottom (repaired).stl>).
-- 4x M3 x 10mm Screws. `[TODO: Verify this is correct] `
+- 4x M3 x 10mm Bolts. `[TODO: Verify this is correct] `
 - 4x M3 Threaded Heat Set Inserts. `[TODO: Verify this is correct] `
   - Affixed in the top acrylic layer, screwed into from the bottom.
-  - I `[TODO: intend to have]` used [these]<https://www.amazon.com/gp/product/B077CL322T>.
+  - I `[TODO: intend to have]` used [these](https://www.amazon.com/gp/product/B077CL322T).
 - OPTIONAL: Non-slip Feet or Pads.
 
 ### Assembly
