@@ -35,11 +35,10 @@ If you want to produce one, you will need some parts.
 
 This case was designed with MBK profile Choc keycaps in mind and may or may not be compatible with other keycaps.
 
-- Laser Cut Acrylic Layers: [Bottom](<./prod/case_layer0_1-2mm.dxf>), [Middle](<./prod/case_layer1_2-3mm.dxf>), [Top](<./prod/case_layer2_4-6mm.dxf>) [FIXME: Layers out of date]
+- Laser Cut Acrylic Layers: [Bottom](<./prod/case_layer0_1.5mm.dxf>), [Lower-Middle](<./prod/case_layer1_3mm.dxf>), [Upper-Middle](<./prod/case_layer2_4.5mm.dxf), [Top](<./prod/case_layer3_1.5mm.dxf>)
   - The filenames include how thick each layer should be.
-  - The PCB goes between the middle and top layers.
-- 6x M3 x 10mm Bolts. [FIXME: Length out of date]
-  - M3 x 12mm should also work, if you can find that size more easily.
+  - The PCB goes between the two middle layers.
+- 6x M3 x 12mm Bolts.
 - 6x M3 Threaded Heat Set Inserts.
   - Affixed in the top acrylic layer, screwed into from the bottom.
   - I used [these](https://www.amazon.com/gp/product/B077CL322T).
@@ -56,7 +55,7 @@ This case was designed with MBK profile Choc keycaps in mind and may or may not 
 - Pin (Button) Mapping using GP2040-CE's [Web Configurator](https://gp2040-ce.info/#/web-configurator)
   - There is a catch: the firmware assumes a default pin mapping that the triplejump does not use. Until you've remapped the pins, you must hold down L1 instead of S2 (Start) when plugging in the controller to enter the configurator.
   - You could also short pin 1 to ground manually if you haven't installed the switches yet when setting up the firmware.
-  - The correct mapping for the triplejump is shown below. [FIXME: Out of date]
+  - The correct mapping for the triplejump is shown below.
 
 ![](./images/pin-mapping.png)
 
@@ -68,5 +67,6 @@ This case was designed with MBK profile Choc keycaps in mind and may or may not 
 - [ruiqimao](https://github.com/ruiqimao)'s [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide), which led me through the entire PCB creation process.
 - [crides](https://github.com/crides)'s [Kleeb](https://github.com/crides/kleeb) Kicad library, whose symbols and footprints are present in the PCB schematic and design.
 - [daprice](https://github.com/daprice)'s [keyswitches.pretty](https://github.com/daprice/keyswitches.pretty) Kicad library, whose footprints are present in the PCB design. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Sadek Baroudi](https://github.com/sadekbaroudi)'s [Keyboard Case Design](https://kbd.news/Keyboard-Case-Design-1764.html) article, which showed the process for exporting the PCB into a form usable during case design.
 - [OpenStickCommunity](https://github.com/OpenStickCommunity)'s [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE), whose firmware makes the silicon useful and whose Discord community was extremely helpful.
 
