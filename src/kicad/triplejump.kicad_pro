@@ -471,8 +471,8 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "step": "triplejump.step",
+      "svg": "../",
       "vrml": ""
     },
     "page_layout_descr_file": ""
