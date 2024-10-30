@@ -63,7 +63,7 @@ This case was designed with MBK profile Choc keycaps in mind and may or may not 
 
 - [GrooveBob](https://github.com/GroooveBob)'s [Stress](https://github.com/GroooveBob/Stress), which helped inspire this design.
 - [jfedor2](https://github.com/jfedor2)'s [Flatbox](https://github.com/jfedor2/flatbox), which helped inspire this design.
-- [Afternoon Labs](https://github.com/afternoonlabs)' [Breeze](https://github.com/afternoonlabs/BreezeKeyboard), which helped inspire this design and whose switch layout it mimics.
+- [Afternoon Labs](https://github.com/afternoonlabs)' [Breeze](https://github.com/afternoonlabs/BreezeKeyboard), which helped inspire this design and layout.
 - [ruiqimao](https://github.com/ruiqimao)'s [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide), which led me through the entire PCB creation process.
 - [crides](https://github.com/crides)'s [Kleeb](https://github.com/crides/kleeb) Kicad library, whose symbols and footprints are present in the PCB schematic and design.
 - [daprice](https://github.com/daprice)'s [keyswitches.pretty](https://github.com/daprice/keyswitches.pretty) Kicad library, whose footprints are present in the PCB design. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
