@@ -39,9 +39,7 @@ This case was designed with MBK profile Choc keycaps in mind and may or may not 
   - The filenames include how thick each layer should be.
   - The PCB goes between the two middle layers.
 - 6x M3 x 12mm Bolts.
-- 6x M3 Threaded Heat Set Inserts.
-  - Affixed in the top acrylic layer, screwed into from the bottom.
-  - I used [these](https://www.amazon.com/gp/product/B077CL322T).
+- 6x M3 x 6mm Barrel Nuts.
 - OPTIONAL: Non-slip Feet or Pads.
 
 ### Assembly
@@ -58,6 +56,10 @@ This case was designed with MBK profile Choc keycaps in mind and may or may not 
   - The correct mapping for the triplejump is shown below.
 
 ![](./images/pin-mapping.png)
+
+### Art
+
+Optionally, you could print some art and put it between the top two acrylic layers. An [Art Template](<./prod/triplejump_art_template.psd>) is provided, though I haven't tested it personally.
 
 ## Acknowledgments
 
